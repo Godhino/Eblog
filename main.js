@@ -5,10 +5,13 @@ function fun1(){
   document.getElementById ('content').innerHTML= `
   
   <style>
-body {
-  background-color: black;
-}
+
+
+
+
 </style>
+
+    <div>
 <details>
   <summary>about this website</summary>
   <p>this is a Bloggers website you can view videos here and follow me on various social media platform like Facebook, TikTok,</p>
@@ -21,7 +24,7 @@ body {
   <!--Tab to edit-->
   welcome to the main page
 </h2>
-
+</div>
 
   
   `;
@@ -91,3 +94,5 @@ function fun4() {
   `;
   
 }
+
+fun1()
